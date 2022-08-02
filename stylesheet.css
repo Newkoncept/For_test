@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     /* padding: 0px 50px 0px 80px; */
-    padding: 16px 80px;
+    padding: 16px 50px;
     gap: 185px;
     position: absolute;
     width: 1440px;
@@ -36,7 +36,7 @@ header li{
 }
 
 button.text{
-    color: rgba(38, 145, 217, 1);
+    color: #2691D9;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,7 @@ button.text{
     order: 0;
     flex-grow: 0;
     border: 0px;
+    background-color: #FCFCFC;
 }
 
 li.overview{
