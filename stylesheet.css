@@ -7,19 +7,15 @@ body{
     font-family: Axiforma, sans-serif;
 }
 
-#logo{
-    position: absolute;
-    max-height: 10%;
-    /* max-width: ; */
-}
+/* .simplixl{
+} */
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0px 50px 0px 80px; */
-    padding: 16px 50px;
+    padding: 0px 0px 0px 30px;
     gap: 185px;
     position: absolute;
     width: 1440px;
@@ -36,7 +32,6 @@ header li{
 }
 
 button.text{
-    color: #2691D9;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -91,12 +86,10 @@ li>a:active{
 }
 
 button.primary{
-    
-    color: #FFFFFF;
     /* text-decoration: none; */
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 0px;
     gap: 16px;
     width: 154px;
     height: 48px;
@@ -110,32 +103,19 @@ button.primary{
     flex-grow: 0;
 }
 
-.footercontainer{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 1440px;
-    height: 551px;
-    /* left: 0px; */
-    top: 2940px;
-    background: #081D2B;
-    padding: 0px 80px 0px 0px;
+button.primary:hover{
+    background-color: #1F74AD;
 }
 
-.totalcont{
-    margin: 50px 80px 50px 80px;
-    display: flex;
-}
-
-.logofooter{
-    color: white;
+button.primary:active{
+    background-color: #175782;
 }
 
 .sectionone{
     position: absolute;
     display: flex;
     flex-direction: row;
-    padding: 195px 725px 2778px 80px;
+    padding: 195px 30px 2778px 30px; /*formerly right 725px ; left 80px*/
     align-items: flex-start;
     gap: 16px;
     width: 635px;
@@ -191,7 +171,7 @@ main .productivity{
     line-height: 18px
 }
 
-.secondary{
+button.secondary{
     margin-left: 24px;
     justify-content: center;
     align-items: center;
@@ -205,6 +185,15 @@ main .productivity{
     border-radius: 6px;
 }
 
+button.secondary:hover{
+    background-color: #BFE3F7;
+    text-decoration: none;
+}
+
+button.secondary:active{
+    background-color: #B2DDF5;
+}
+
 .sectiontwo{
     display: flex;
     position: absolute;
@@ -214,7 +203,7 @@ main .productivity{
     gap: 55px;
     width: 1280px;
     height: 174px;
-    left: 80px;
+    left: 30px; /*formerly 80px*/
     top: 700px; /* initially 876px */
     bottom: 2441px;
 }
@@ -335,3 +324,123 @@ main .productivity{
     text-align: center;
     color: #302E2B;
 }
+
+.sectionthree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 156px;
+    position: absolute;
+    width: 1280px;
+    height: 486px;
+    left: 30px;
+    top: 822px; /*added the top of section two to 122px, since sectionthree is 122 below sectiontwo*/
+}
+
+.sectionfour{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 486px;
+    height: 259px;
+    left: 30px;
+    top: 1350px; /*may need readjustments after the images are added*/
+}
+
+.sectionfive{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1440px;
+    height: 364px;
+    left: 0px;
+    top: 1600px; /*may also need readjustments after*/
+    background: #F4F9FD;
+}
+
+.subfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0px;
+    gap: 8px;
+    position: absolute;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 1960px; /*may also need readjustments after*/
+    background: #FCFCFC;
+}
+
+/* I added the footer code from here*/
+.footer-container {
+    /*padding-bottom: 4rem 0 4rem 0;*/
+    position: absolute;
+    width: 1440px;
+    height: 551px;
+    left: 0px;
+    top: 2940px;
+    background: #081D2B
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-heading {
+    width: 20%;
+    flex-basis: 20%;
+  }
+  
+  .footer-heading h2 {
+    width: 132px;
+    height: 39.6px;
+  }
+  
+  .image {
+    max-width: 100%;
+    width: 30px;
+  }
+  
+  #logo-text {
+    max-width: 80%;
+  }
+  
+  .footer a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #footer-email {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  #footer-email-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .line {
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 20px 0;
+    margin-top: 20px;
+  }  
