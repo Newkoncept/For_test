@@ -7,10 +7,10 @@ body{
     font-family: Axiforma, sans-serif;
 }
 
-.logo{
-    font-family: Kokoro, sans-serif;
-    width: 110px;
-    height: 33px;
+#logo{
+    position: absolute;
+    max-height: 10%;
+    /* max-width: ; */
 }
 
 header{
