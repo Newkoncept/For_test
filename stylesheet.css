@@ -24,6 +24,7 @@ a {
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .col-6 {
@@ -48,6 +49,7 @@ header {
 .nav-link {
   padding: 0 20px;
   display: block;
+  transition: all 0.2s;
 }
 
 /* removes text decoration on all links */
@@ -93,6 +95,7 @@ li > a:active {
 
 section {
   padding: 30px 0;
+  margin: 50px 0;
 }
 
 .sectionone .container {
@@ -174,6 +177,11 @@ main .productivity {
   max-width: 60%;
 }
 
+.sectionthree .col-6,
+.sectionfour .col-6 {
+  max-width: 40%;
+}
+
 .sectionfive {
   background: #f4f9fd;
 }
@@ -198,7 +206,6 @@ main .productivity {
 }
 
 .subfooter {
-  background: #fcfcfc;
   text-align: center;
 }
 
@@ -235,7 +242,8 @@ main .productivity {
 
 .image {
   max-width: 100%;
-  width: 30px;
+  width: 50%;
+  /* width: 30px; */
 }
 
 #logo-text {
@@ -251,15 +259,24 @@ main .productivity {
 
 .footer-form {
   display: flex;
+  margin-top: 20px;
 }
 
 #footer-email {
   padding: 10px;
   width: 95%;
+  border-radius: 10px 0 0 10px;
+  border: none;
 }
 
 #footer-email-btn {
   width: 20%;
+  background-color: #2691d9;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 0 10px 10px 0;
 }
 
 .line {
