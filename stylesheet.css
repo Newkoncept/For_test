@@ -101,6 +101,8 @@ button.primary{
     flex: none;
     order: 1;
     flex-grow: 0;
+    padding-top: 32px;
+
 }
 
 button.primary:hover{
@@ -123,6 +125,12 @@ button.primary:active{
     line-height: 32px;
 }
 
+.side-img {
+padding-bottom: 48px;
+padding-left: 218px;
+padding-right: 80px;
+}
+
 main .boost{
     width: 140px;
     height: 18px;
@@ -132,6 +140,8 @@ main .boost{
     font-size: 12px;
     line-height: 18px;
     color: #F38707;
+    padding-top: 195px;
+    padding-bottom: 8px;
 }
 
 main .compare{
@@ -143,6 +153,7 @@ main .compare{
     font-size: 56px;
     line-height: 66px;
     color: #1A1A1A;
+    padding-top: 8px;
 }
 
 main .productivity{
@@ -154,6 +165,7 @@ main .productivity{
     font-size: 20px;
     line-height: 30px;
     color: #302E2B;
+    padding-bottom: 32px;
 }
 
 #pri-sec-button{
@@ -183,6 +195,7 @@ button.secondary{
     background: #D2EBF9;
     border: 0px;
     border-radius: 6px;
+    padding-top: 32px;
 }
 
 button.secondary:hover{
@@ -202,10 +215,11 @@ button.secondary:active{
     padding: 0px;
     gap: 55px;
     width: 1280px;
-    height: 174px;
-    left: 30px; /*formerly 80px*/
-    top: 700px; /* initially 876px */
+    height: 172px;
+    left: 80px; /*formerly 80px*/
+    top: 876px; /* initially 876px */
     bottom: 2441px;
+    padding-top: 48px;
 }
 
 .upload{
@@ -329,15 +343,57 @@ button.secondary:active{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding-top: 122px;
     gap: 156px;
     position: absolute;
     width: 1280px;
     height: 486px;
     left: 30px;
-    top: 822px; /*added the top of section two to 122px, since sectionthree is 122 below sectiontwo*/
+    top: 1000px;
 }
 
+.sec3-image {
+    width: 548px;
+    height: 486px;
+}
+
+.sec3-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    gap: 8px;
+    width: 576px;
+    height: 344px;
+}
+
+#everything {
+    font-family: Axiforma;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px;
+    color: #0D0D0D;
+    flex: none;
+    width: 576px;
+    height: 96px;
+    font-weight: 700;
+    padding-top: 193px;
+
+}
+
+#learn {
+    justify-content: center;
+    width: 157px;
+    height: 48px;
+    top: 184px;
+    background-color: #2691D9;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-family: Axiforma;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 .sectionfour{
     display: flex;
     flex-direction: column;
@@ -349,8 +405,18 @@ button.secondary:active{
     height: 259px;
     left: 30px;
     top: 1350px; /*may need readjustments after the images are added*/
+    padding-top: 207px;
+    padding-right: 154px;
 }
 
+.sec4-image {
+    top: 1776px;
+    width: 607px;
+    height: 380px;
+    border-radius: 8px;
+    padding-right: 113px;
+    padding-left: 194px;
+}
 .sectionfive{
     display: flex;
     flex-direction: row;
@@ -358,8 +424,33 @@ button.secondary:active{
     width: 1440px;
     height: 364px;
     left: 0px;
-    top: 1600px; /*may also need readjustments after*/
+    top: 2276px; /*may also need readjustments after*/
     background: #F4F9FD;
+}
+
+.sec-a {
+    padding-bottom: 230px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+#sec-a-image {
+    width: 54px;
+    height: 54px;
+}
+.sec-b {
+    padding-bottom: 230px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+.sec-c {
+    padding-bottom: 230px;
+    padding-right: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
 }
 
 .subfooter{
