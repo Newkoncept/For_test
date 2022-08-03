@@ -1,156 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/axiforma">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/axiforma" />
     <!-- <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/"> -->
     <title>SimpliXL</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <ul>
-            <li id="logo"><a href="" class="simplixl">SimpliXL</a></li>
-            <li class="overview"><a href="#">Overview</a></li>
-            <li class="feature"><a href="#">Features</a></li>
-            <li class="howto"><a href="#">How To</a></li>
-            <li class="contact"><a href="">Contact Us</a></li>
-            <li><button type="button" class="text"><a href="" style="color: #2691D9;">Sign In</a></button></li>
-            <li><button type="button" class="primary"><a href="" style="color: #FFFFFF;">Sign Up</a></button></li>
-        </ul>
+      <li id="logo"><a href="" class="simplixl">SimpliXL</a></li>
+
+      <ul class="navbar">
+        <li><a href="#" class="nav-link">Overview</a></li>
+        <li><a href="#" class="nav-link">Features</a></li>
+        <li><a href="#" class="nav-link">How To</a></li>
+        <li><a href="#" class="nav-link">Contact Us</a></li>
+      </ul>
+
+      <div class="authenticate row">
+        <a href="#" class="nav-link blue">Sign In</a>
+        <a href="#" class="nav-link white bg-blue">Sign Up</a>
+      </div>
     </header>
 
     <main>
-        <div class="sectionone">
+      <section class="sectionone">
+
+        <div class="container row">
             <div>
-                <div>
-                    <h4 class="boost">Boost your productivity</h4>
-                </div>
-                <div>
-                    <h2 class="compare">Compare the content of your Excel files, in SimpliXL</h2>
-                    <p class="productivity">Boost your productivity by comparing and finding discrepancies in the content of your excel files with SimpliXL.</p>
-                </div>
-                <div id="pri-sec-button">
-                    <button type="button" class="primary"><a href="" style="color: #FFFFFF;">Get SimpliXL</a></button>
-                    <button type="button" class="secondary"><a href="" style="color: #2691D9;"> Watch Demo</a></button>
-                </div>
-                <p id="freeforever">Free forever</p>
+              <h4 class="boost">Boost your productivity</h4>
+              <h1 class="compare">
+                Compare the content of your Excel files, in SimpliXL
+              </h1>
+              <p class="productivity">
+                Boost your productivity by comparing and finding discrepancies in
+                the content of your excel files with SimpliXL.
+              </p>
+              <div class="heading-btn">
+                <a href="#" class="bg-blue white btn">Get SimpliXL</a>
+                <a href="#" class="btn blue bg-light-blue"> Watch Demo</a>
+              </div>
+              <p id="freeforever">Free forever</p>
             </div>
             <div class="side-img">
-                <img src="./images/Frame 58212.png" alt="">
+              <img src="./images/Frame 58212.png" alt="" />
             </div>
         </div>
+      </section>
 
-        <div class="sectiontwo">
-            <div class="upload">
-                <h5>Upload</h5>
-                <p>Upload your  CSV or Excel files hassle-free on SimpliXL. Always free.</p>
-            </div>
-            <div class="compare-cont">
-                <h5>Compare</h5>
-                <p>Compare the content of the file uploaded on SimpliXL. Always free.</p>
-            </div>
-            <div class="download">
-                <h5>Download</h5>
-                <p>Save your data and downlaod corrected file anytime. Always free.</p>
-            </div>
-        </div>
-
-        <div class="sectionthree">
-            <div class="sec3-image">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+      <section class="sectiontwo">
+        <div class="container row">
+            <div>
+              <h3>Upload</h3>
+              <p>
+                Upload your CSV or Excel files hassle-free on SimpliXL. Always free.
+              </p>
             </div>
             <div>
-                <h2 id="Everything">Everything you need in a File Comparison Tool.</h2>
-                <p>Establish accuracy of data in your spreadsheet file, with easy comparison and real-time editing.</p>
-                <p>Save time</p>
-                <p>Improve productivity</p>
-                <input type="button" value="Learn More &rarr;" id="learn">
+              <h3>Compare</h3>
+              <p>
+                Compare the content of the file uploaded on SimpliXL. Always free.
+              </p>
+            </div>
+            <div>
+              <h3>Download</h3>
+              <p>
+                Save your data and downlaod corrected file anytime. Always free.
+              </p>
             </div>
         </div>
+      </section>
 
-        <div class="sectionfour">
-            <div>
-                <h2>Let’s help you reduce Spreadsheet Errors.</h2>
-                <p>SimpliXL highlights duplicated content in an excel file , removes the duplicate, return both files or dispose original file and return newly edited file.</p>
-                <button type="button" class="text"><a href="">Get Started</a></button>
+      <section class="sectionthree">
+        <div class="container row">  
+            <div class="sec3-image col-6">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
             </div>
-            <div class="sec4-image">
-                <img src="" alt="">
+            <div class="col-6">
+              <h2 id="everything">
+                Everything you need in a File Comparison Tool.
+              </h2>
+              <p class="border-left">
+                Establish accuracy of data in your spreadsheet file, with easy
+                comparison and real-time editing.
+              </p>
+              <p>Save time</p>
+              <p>Improve productivity</p>
+              <a href="#" class="btn bg-blue white"> Learn More &rarr; </a>
             </div>
-        </div>
+      </div>
+      </section>
 
-        <div class="sectionfive">
-            <div class="sec-a">
-                <div><img src="./images/Frame 58752.png" alt="" id="sec-a-image"></div>
-                <h5>Safe and Secure</h5>
-                <p>We use high capacity security measure to keep your data safe. You control your data and no one else can have access to it.</p>
-            </div>
-            <div class="sec-b">
-                <div><img src="./images/Frame 58897.png" alt="" id="sec-a-image"></div>
-                <h5>Privacy</h5>
-                <p>We never use your data for ad purposes and we never sell your information to third parties. Your data is safe and private.</p>
-            </div>
-            <div class="sec-c">
-                <div><img src="./images/Frame 58753.png" alt="" id="sec-a-image"></div>
-                <h5>Compliance to regulations</h5>
-                <p>SimpliXL adheres strictly to the laid down laws and regulations on data privacy and would not endanger their customers information.</p>
-            </div>
-        </div>
+      <section class="sectionfour">
 
-        <div class="subfooter">
-            <div>
-                <h1>Get started for free in 10 minutes</h1>
+        <div class="container row">
+            <div class="col-6">
+              <h2>Let’s help you reduce Spreadsheet Errors.</h2>
+              <p>
+                SimpliXL highlights duplicated content in an excel file , removes
+                the duplicate, return both files or dispose original file and return
+                newly edited file.
+              </p>
+              <a href="#" class="blue">Get Started</a>
             </div>
-            <div>
-                <p>Get the best excel file comparison tool for free and boost your daily productivity.With SimpliXL, you get all the needed tools in one workspace.</p>
-            </div>
-            <div>
-                <button type="button" class="primary"><a href="">Sign Up</a></button>
+            <div class="col-6">
+              <img src="" alt="" />
             </div>
         </div>
+      </section>
+
+      <section class="sectionfive">
+        <div class="container">
+            <div>
+              <img src="./images/Frame 58752.png" alt="" />
+              <h3>Safe and Secure</h3>
+              <p>
+                We use high capacity security measure to keep your data safe. You
+                control your data and no one else can have access to it.
+              </p>
+            </div>
+            <div>
+              <img src="./images/Frame 58897.png" alt="" />
+              <h3>Privacy</h3>
+              <p>
+                We never use your data for ad purposes and we never sell your
+                information to third parties. Your data is safe and private.
+              </p>
+            </div>
+            <div>
+              <img src="./images/Frame 58753.png" alt="" id="sec-a-image" />
+              <h3>Compliance to regulations</h3>
+              <p>
+                SimpliXL adheres strictly to the laid down laws and regulations on
+                data privacy and would not endanger their customers information.
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <section class="subfooter">
+          <h2>Get started for free in 10 minutes</h1>
+          <p>
+            Get the best excel file comparison tool for free and boost your
+            daily productivity.With SimpliXL, you get all the needed tools in
+            one workspace.
+          </p>
+          <a href="#" class="btn btn-lg bg-blue white">Sign Up</a>
+        </section>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <div class="container">
-                <div class="footer">
-                    <div class="footer-heading">
-                        <h2><img class="image" src="Frame 58827.svg"></h2>
-                        <p id="logo-text">With SimpliXL, you can boost your accuracy by comparing and finding discrepancies in the content of your excel files.</p>
-                    </div>
-                    <div class="footer-heading footer-1">
-                        <h2>Company</h2>
-                        <a href="#">Features</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Legal Service</a>
-                        <a href="#">Contact Us</a>
-                    </div>
-                    <div class="footer-heading footer-2">
-                        <h2>Support</h2>
-                        <a href="#">Documentation</a>
-                        <a href="#">Demo</a>
-                        <a href="#">API Status</a>
-                    </div>
-                    <div class="footer-heading footer-3">
-                        <h2>Solution</h2>
-                        <a href="#">Analytics</a>
-                    </div>
-                    <div class="footer-email-form footer-heading" >
-                        <h2>Subscribe to our Newsletter</h2>
-                        <p>Be the first to know about exciting new features and get updates.</p>
-                        <input type="email" placeholder="Email address" id="footer-email">
-                        <input type="submit" value="&rarr;" id="footer-email-btn">
-                    </div>
-                </div>
-                <p class="line">&copy; 2022 SimpliXL. All rights reserved</p>
+      <div class="footer-container">
+        <div class="container">
+          <div class="footer">
+            <div class="footer-heading">
+              <h2><img class="image" src="Frame 58827.svg" /></h2>
+              <p id="logo-text">
+                With SimpliXL, you can boost your accuracy by comparing and
+                finding discrepancies in the content of your excel files.
+              </p>
             </div>
+            <div class="footer-heading footer-1">
+              <h2>Company</h2>
+              <a href="#">Features</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Legal Service</a>
+              <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-heading footer-2">
+              <h2>Support</h2>
+              <a href="#">Documentation</a>
+              <a href="#">Demo</a>
+              <a href="#">API Status</a>
+            </div>
+            <div class="footer-heading footer-3">
+              <h2>Solution</h2>
+              <a href="#">Analytics</a>
+            </div>
+            <div class="footer-email-form footer-heading">
+              <h2>Subscribe to our Newsletter</h2>
+              <p>
+                Be the first to know about exciting new features and get
+                updates.
+              </p>
+
+              <div class="footer-form">
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    id="footer-email"
+                  />
+                  <input type="submit" value="&rarr;" id="footer-email-btn" />
+              </div>
+            </div>
+          </div>
+          <p class="line">&copy; 2022 SimpliXL. All rights reserved</p>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
